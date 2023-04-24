@@ -465,7 +465,9 @@ p {
 }
 
 .fife-linc:is(:hover, :focus) {
-    background-color: var(--second-background-color);
+
+    border-color: var(--second-background-color);
+    color: var(--second-background-color);
 }
 
 .fife-icon {
