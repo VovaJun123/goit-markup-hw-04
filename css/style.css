@@ -31,15 +31,7 @@ p {
     margin-bottom: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 
 /* ...........................................................header */
 .header-conteiner {
@@ -56,6 +48,7 @@ h6 {
     align-items: center;
     display: flex;
     margin: 0;
+    margin: 24px 0;
 }
 
 .header-bloc {
@@ -152,6 +145,7 @@ h6 {
 .main-contact {
     font-style: normal;
     margin-left: 332px;
+    margin-top: 24px;
 }
 
 .linkk-header {
@@ -169,13 +163,11 @@ h6 {
     background-size: cover;
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-main.jpg);
-
+    margin: 0 auto;
 
 }
 
-.first-conteiner button {
-    margin-top: 48px;
-}
+
 
 
 .first-bloc h1 {
@@ -190,6 +182,7 @@ h6 {
     letter-spacing: 0.02em;
     color: var(--main-color);
     margin-top: 0;
+
     margin: 0 auto;
 }
 
@@ -214,6 +207,7 @@ h6 {
     border-radius: 4px;
     background-color: var(--thre-background-color);
     margin: 0 auto;
+    margin-top: 48px;
 
 }
 
@@ -231,6 +225,16 @@ h6 {
 .second-bloc {
 
     padding: 120px 0;
+}
+
+.second-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--four-section-color);
+    border-radius: 4px;
+    margin-bottom: 8px
 }
 
 .second {
@@ -259,6 +263,9 @@ h6 {
 }
 
 
+.linkcc-logo {
+    text-align: left;
+}
 
 .second h3 {
 
@@ -271,9 +278,6 @@ h6 {
 }
 
 .second p {
-
-
-
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -388,10 +392,7 @@ h6 {
 
 
 
-.linkcc-logo {
-    text-align: center;
-    margin-bottom: 8px;
-}
+
 
 
 /*............................................................ footer */
@@ -458,6 +459,9 @@ h6 {
 
 .secondd-logo {
     visibility: hidden;
+    margin: 0;
+    padding: 0;
+    display: none;
 }
 
 .firstt {
@@ -477,7 +481,6 @@ h6 {
 
 .firstt h2 {
     font-style: normal;
-    text-align: left;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -489,13 +492,8 @@ h6 {
 
 
 .firstt-link {
-    box-sizing: border-box;
     background: var(--main-color);
-    border: 1px solid var(--button-background-color);
-
     width: calc((100% - 48px) / 3);
-
-
 }
 
 
@@ -509,6 +507,7 @@ h6 {
 
 .linkcc-logo {
     margin-bottom: 8px;
+    text-align: left;
 }
 
 .second-parahraf {
