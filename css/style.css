@@ -50,7 +50,7 @@ p {
     align-items: center;
     display: flex;
     margin: 0;
-    margin: 24px 0;
+   
 }
 
 .header-bloc {
@@ -146,12 +146,17 @@ p {
 
 .main-contact {
     font-style: normal;
-    margin-left: 332px;
-    margin-top: 24px;
+   margin: 0 auto;
 }
 
 .linkk-header {
     padding: 24px 0;
+    display: block;
+}
+
+.linkk-contact {
+    padding: 24px 0;
+    display: block;
 }
 
 /*............................................................ section-1 */
@@ -267,6 +272,7 @@ p {
 
 .linkcc-logo {
     text-align: left;
+    margin: 0;
 }
 
 .second h3 {
@@ -313,6 +319,7 @@ p {
 
 
 .thre-bloc h2 {
+    margin-top: 0;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -341,6 +348,7 @@ p {
 
 .four-logo {
     margin-bottom: 72px;
+    margin-top: 0;
 }
 
 .four h3 {
@@ -437,6 +445,7 @@ p {
     color: var(--logo-color);
     margin-bottom: 72px;
     text-align: center;
+    margin-top: 0;
 
 }
 
