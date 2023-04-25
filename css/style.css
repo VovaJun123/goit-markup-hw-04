@@ -529,9 +529,12 @@ p {
 }
 
 .last-continer {
+   
+    margin-right: 120px;
+}
+.global-footer-box {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .social-parahraf {
