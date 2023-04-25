@@ -530,7 +530,7 @@ p {
 
 .last-continer {
    
-    margin-right: 120px;
+    gap: 120px
 }
 .global-footer-box {
     display: flex;
