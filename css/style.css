@@ -50,7 +50,8 @@ p {
     align-items: center;
     display: flex;
     margin: 0;
-   
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .header-bloc {
@@ -146,7 +147,8 @@ p {
 
 .main-contact {
     font-style: normal;
-   margin: 0 auto;
+     margin: 0 auto;
+     margin-left: auto;
 }
 
 .linkk-header {
